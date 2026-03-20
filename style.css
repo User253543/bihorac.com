@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", -apple-system, system-ui, sans-serif;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    text-align: center;
+    max-width: 480px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    font-size: 1.05rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.links a:hover {
+    border-color: #1a1a1a;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .bio {
+        font-size: 0.95rem;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        width: 100%;
+        max-width: 200px;
+    }
+}

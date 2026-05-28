@@ -1,7 +1,7 @@
 # Rollback Anti-Bot
 
 ## Repo-Layer rückgängig
-git revert <commit-hash> für die 5 Anti-Bot-Commits
+git revert <commit-hash> für alle Anti-Bot-Commits (siehe `git log --grep='anti-bot\|security.txt\|nojekyll\|verify-anti-bot\|rollback'`)
 git push origin master
 
 ## Cloudflare rückgängig

@@ -106,5 +106,3 @@ Disallow: /
 
 User-agent: PetalBot
 Disallow: /
-
-Sitemap:

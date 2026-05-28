@@ -1,0 +1,3 @@
+# spawning.ai ai.txt — opt-out aus AI-Trainings-Datasets
+User-Agent: *
+Disallow: /
